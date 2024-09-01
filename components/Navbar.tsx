@@ -12,7 +12,7 @@ export default function Navbar({ className }: { className?: string }) {
 
   return (
     
-    <ul className="flex items-center justify-right gap-x-10 bg-black hover:bg-white rounded-s-full ">
+    <ul className="flex items-center w-[700px]  justify-right gap-x-10 bg-black hover:bg-white rounded-full ">
 
       <Menu setActive={setActive}>
 

@@ -1,7 +1,15 @@
 import ContactUs from "@/components/ContactUs";
+import Navbar from "@/components/Navbar";
+
 const Contact = () => {
   return (
-    <div><h1 className="text-4xl bg-black hover:bg-white">Contact</h1></div>
+    <>
+    
+    <Navbar/>
+    <h1 className="text-4xl w-[700px] bg-black p-3 rounded-3xl bg-opacity-80 backdrop:blur-md hover:bg-white mt-10 text-center">CONTACT US</h1>
+    <ContactUs/>
+    
+    </>
   )
 }
 
